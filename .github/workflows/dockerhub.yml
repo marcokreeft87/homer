@@ -3,7 +3,7 @@ name: Dockerhub
 
 on:
   push:
-    tags: [v*]
+    branches: [ custom ]
 
 jobs:
   dockerhub:
